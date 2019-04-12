@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    text-align: center;
+    color:black;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p.border{
+    border: 5px solid black;
+}
+p.dotted {
+    border-style: dotted;
+}
+img.rounded-corners {
+   border-radius: 30px;
+}
+img.float-left {
+    float: left;
+    border-radius: 30px;
+    margin-right: 20px;
+}
